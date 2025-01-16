@@ -488,7 +488,7 @@
             "jar": "./xyqxbpq.jar",
             "ext": {
                 "分类": "电视剧$1#电影$2#动漫$3#综艺$4#体育赛事$5#短剧$41",
-                "分类url": "https://ty1010.com/index.php/vod/show/class/{cateId}.html",
+                "分类url": "https://ty1010.com/index.php/vod/show/class/id/{cateId}.html",
         "线路标题": "🍁凯少爷🍁祝您观影愉快🍁",
         "简介": "🍁凯少爷🍁水印广告勿信，谨防诈骗🍁"
             }
