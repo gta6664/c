@@ -627,23 +627,65 @@
         "简介": "🍁凯少爷🍁水印广告勿信，谨防诈骗🍁"
       }
     },
-    {
-      "key": "大鱼影视",
-      "name": "大鱼影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./xyqxbpq.jar",
-      "ext": {
-      "请求头": "User-Agent$MOBILE_UA",
-       "编码": "UTF-8",
-        "分类url": "https://dayuya.com/index.php/vod/type/id/{cateId}{year}/{class}/{area}/page/{catePg}.html",
-        "分类": "电影$1#电视剧$2#综艺$52#动漫$3#短剧$33",
+         {
+            "key": "火车太堵",
+            "name": "火车太堵",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./xyqxbpq.jar",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "分类url": "https://tdgo.shop/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+                "分类": "电影$20#剧集$21#动漫$22#综艺$23#短剧$24#福利$27",
         "线路数组": "hl-tabs-btn hl-slide-swiper&&</a >",
         "线路标题": "nbsp;&&</a >",
         "线路标题": "🍁凯少爷🍁祝您观影愉快🍁",
         "简介": "🍁凯少爷🍁水印广告勿信，谨防诈骗🍁"
       }
     },
+        {
+            "key": "悟空影视",
+            "name": "悟空影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./xyqxbpq.jar",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "分类url": "https://www.chinasumadang.com/sumadangVS/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$44",
+                "线路数组": "hl-tabs-btn hl-slide-swiper&&</a >",
+        "线路标题": "🍁凯少爷🍁祝您观影愉快🍁",
+        "简介": "🍁凯少爷🍁水印广告勿信，谨防诈骗🍁"
+            }
+        },
+        {
+            "key": "哈哈影视",
+            "name": "哈哈影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./xyqxbpq.jar",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "分类url": "https://www.hahads.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$5",
+                "简介": "🍁凯少爷🍁水印广告勿信，谨防诈骗🍁"
+            }
+        },
+     {
+      "key": "樱花动漫",
+      "name": "樱花动漫",
+     "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "./xyqxbpq.jar",
+    "searchable":1,
+    "quickSearch":1,
+    "filterable":1,
+      "ext": "./樱花动漫.json"
+    },
+
        {
             "key": "Vidhub视频",
             "name": "Vidhub视频",
