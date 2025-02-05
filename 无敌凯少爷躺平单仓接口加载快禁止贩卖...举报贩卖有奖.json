@@ -2321,42 +2321,6 @@
       "logo": "https://live.fanmingming.com/tv/{name}.png"
     },
     {
-      "name": "🧨🧧IPV6🧨🧧",
-      "type": 0,
-      "url": "https://ghgo.xyz/raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Gather.m3u",
-      "playerType": 1
-    },
-    {
-      "name": "🧨🧧1岗弯极速版🧨🧧",
-      "type": 0,
-      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/gta6664/003/refs/heads/main/3ZB.txt",
-      "ua": "okhttp/3.12.13",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "🧨🧧2岗弯极速版🧨🧧",
-      "type": 0,
-      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/gta6664/003/refs/heads/main/4ZB.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://live.fanmingming.com/tv/{name}.png"
-    },
-    {
-      "name": "🧨🧧3岗弯极速版🧨🧧",
-      "type": 0,
-      "url": "https://d.kstore.dev/download/9771/nmg012345678/A20241203.txt",
-      "playerType": 1
-    },
-    {
-      "name": "🧨🧧4岗弯极速版🧨🧧",
-      "type": 0,
-      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/gta6664/003/refs/heads/main/5ZB.txt",
-      "playerType": 2,
-      "timeout": 10
-    },
-    {
       "name": "🧨🧧5摸鱼儿岗弯极速版🧨🧧",
       "type": 0,
       "url": "http://我不是.摸鱼儿.xyz/live.php",
