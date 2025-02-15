@@ -279,6 +279,39 @@
       "api": "csp_Gz360",
       "playerType": 2
     },
+    {
+      "key": "可可影视",
+      "name": "可可蓝光影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jsr": "./lzxw.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./可可影视.json"
+    },
+    {
+      "key": "鸭奈飞",
+      "name": "鸭奈飞蓝光",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "jsr": "./lzxw.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./鸭奈飞.js"
+    },
+    {
+      "key": "XBPQ",
+      "name": "一起看蓝光影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jsr": "./lzxw.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./一起看.json"
+    },
  {
             "key": "短剧网",
             "name": "短剧网2",
