@@ -224,6 +224,15 @@
       },
       "jar": "./111.txt"
     },
+    {
+      "key": "移动4K云盘",
+      "name": "移动4K云盘",
+      "type": 3,
+      "jar": "./YD.jar",
+      "api": "csp_YDjisu",
+      "searchable": 1,
+      "changeable": 1
+    },
 {
       "key": "凯少爷QQ群: 750301216",
       "name": "5秒播凯少爷QQ群: 750301216",
@@ -280,15 +289,19 @@
       "playerType": 2
     },
     {
-      "key": "可可影视",
-      "name": "可可蓝光影视",
+      "key": "西瓜视频",
+      "name": "🍉西瓜视频",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "csp_AmuXiguaV2",
       "jsr": "./lzxw.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./可可影视.json"
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
     },
     {
       "key": "鸭奈飞",
