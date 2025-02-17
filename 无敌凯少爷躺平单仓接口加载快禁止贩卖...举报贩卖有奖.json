@@ -192,6 +192,49 @@
       "jar": "https://700sjro44343.vicp.fun/vip/jar/xiaomi.php"
     },
     {
+      "key": "csp_Wogg",
+      "name": "玩偶4K",
+      "type": 3,
+      "api": "csp_Wogg",
+      "changeable": 0,
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://woggpan.333232.xyz/",
+          "http://wogg.xxooo.cf/",
+          "http://woggapi.888484.xyz/",
+          "http://www.wogg.net"
+        ],
+        "threadinfo": {
+          "chunksize": 450,
+          "threads": 10
+        }
+      },
+      "jar": "https://700sjro44343.vicp.fun/vip/jar/xiaomi.php"
+    },
+    {
+      "key": "csp_Netfixtv",
+      "name": "至臻4K",
+      "type": 3,
+      "api": "csp_Duopan",
+      "changeable": 0,
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "https://mihdr.top",
+          "http://www.xhww.net",
+          "http://xhww.net",
+          "https://xiaomiai.site"
+        ],
+        "url_key": "Duopan",
+        "threadinfo": {
+          "chunksize": 250,
+          "threads": 10
+        }
+      },
+      "jar": "https://700sjro44343.vicp.fun/vip/jar/xiaomi.php"
+    },
+    {
       "key": "闪电弹幕",
       "name": "闪电┃4K弹幕",
       "type": 3,
@@ -784,7 +827,33 @@
         "简介": "🍁凯少爷🍁水印广告勿信，谨防诈骗🍁"
       }
     },
-
+    {
+      "key": "lltv_QYDH",
+      "name": "奇艺┃动画",
+      "type": 3,
+      "api": "./drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./qiyi.js"
+    },
+    {
+      "key": "lltv_TXDH",
+      "name": "腾讯┃动画",
+      "type": 3,
+      "api": "./drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./tengxun.js"
+    },
+    {
+      "key": "lltv_YKDH",
+      "name": "优酷┃动画",
+      "type": 3,
+      "api": "./drpy2.min.js",
+      "ext": "./youku.js"
+    },
     {
       "key": "ngys",
       "name": "南瓜┃影视",
