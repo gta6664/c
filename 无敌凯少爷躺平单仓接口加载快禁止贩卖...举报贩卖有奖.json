@@ -168,16 +168,22 @@
       "name": "玩偶智能|4K",
       "type": 3,
       "api": "csp_Wogg",
-      "jar": "./000.txt",
-      "searchable": 1,
-      "quickSearch": 1,
+      "jar": "./0126.jar;md5;f3110f8ad96233627b3e6870cfdbd598",
+      "changeable": "0",
       "filterable": 1,
       "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "wogg": true,
-        "danmu": true
+        "site_urls": [
+          "https://wogg.xxooo.cf",
+          "http://www.wogg.bf",
+          "https://www.wogg.net"
+        ],
+        "token": "",
+        "ucCookie": "",
+        "quarkCookie": "",
+        "threadinfo": {
+          "chunksize": 400,
+          "threads": 12
+        }
       }
     },
     {
@@ -246,24 +252,6 @@
         }
       },
       "jar": "https://700sjro44343.vicp.fun/vip/jar/xiaomi.php"
-    },
-    {
-      "key": "闪电弹幕",
-      "name": "闪电┃4K弹幕",
-      "type": 3,
-      "api": "csp_Wobg",
-      "jar": "./000.txt",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "http://1.95.79.193",
-        "danmu": true
-      }
     },
     {
       "key": "天",
