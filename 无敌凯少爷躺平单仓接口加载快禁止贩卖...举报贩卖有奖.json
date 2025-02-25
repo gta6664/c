@@ -164,22 +164,33 @@
       "name": "玩偶智能|4K",
       "type": 3,
       "api": "csp_Wogg",
-      "jar": "./0126.jar;md5;f3110f8ad96233627b3e6870cfdbd598",
-      "changeable": "0",
+      "jar": "./000.txt;md5;f3110f8ad96233627b3e6870cfdbd598",
+      "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "site_urls": [
-          "https://wogg.xxooo.cf",
-          "http://www.wogg.bf",
-          "https://www.wogg.net"
-        ],
-        "token": "",
-        "ucCookie": "",
-        "quarkCookie": "",
-        "threadinfo": {
-          "chunksize": 400,
-          "threads": 12
-        }
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "wogg": true,
+        "danmu": true
+      }
+    },
+    {
+      "key": "木偶",
+      "name": "木偶 | 4K",
+      "type": 3,
+      "api": "csp_Wobg",
+      "jar": "./000.txt;md5;f3110f8ad96233627b3e6870cfdbd598",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "http://149.88.87.72:5666/",
+        "danmu": true
       }
     },
     {
@@ -239,14 +250,16 @@
       "key": "csp_FeiMaoUC",
       "name": "闪电优汐4K",
       "type": 3,
-      "api": "csp_Duopan",
-      "jar": "./0000.txt;md5;2ce1c06d0582d9dca3496f00a37ade6c",
+      "api": "csp_Wobg",
+      "jar": "./000.txt;md5;2ce1c06d0582d9dca3496f00a37ade6c",
+      "quickSearch": 1,
+      "changeable": 1,
       "filterable": 1,
       "ext": {
-        "site_urls": [
-          "http://1.95.79.193/"
-        ],
-        "url_key": "FeiMaoUC"
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "site": "http://1.95.79.193/",
+        "danmu": true
       }
     },
     {
