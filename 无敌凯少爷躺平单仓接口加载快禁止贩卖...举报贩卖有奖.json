@@ -33,6 +33,16 @@
       "filterable": 0
     },
     {
+      "key": "无敌凯少爷豆瓣3",
+      "name": "无敌凯少爷豆瓣3",
+      "type": 3,
+      "api": "csp_DouDou",
+      "jar": "./555.txt",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
       "key": "应用商店",
       "name": "🍁凯少爷🍁应用商店只能OK影视下载",
       "type": 3,
@@ -68,20 +78,6 @@
         "type": "rect",
         "ratio": 1.618
       }
-    },
-    {
-      "key": "影视配置",
-      "name": "115天翼配置",
-      "type": 3,
-      "api": "csp_Wexconfig",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "jar": "./111.txt"
     },
     {
       "key": "网盘配置",
@@ -188,27 +184,70 @@
     },
     {
       "key": "csp_UC",
-      "name": "UC云盘┃4K弹幕",
+      "name": "小米🍚UC4K",
       "type": 3,
-      "searchable": 1,
+      "changeable": "0",
       "api": "csp_Duopan",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740365131257/0224.jar;md5;4cfaa3add65e69b8b58cee4f045c0db8",
       "filterable": 1,
       "ext": {
         "site_urls": [
-          "http://www.mucpan.cc",
-          "http://ucmi.fun",
-          "http://www.ucmi.fun"
+          "http://www.54271.fun/",
+          "https://www.milvdou.fun",
+          "http://www.54271.fun/",
+          "https://www.mucpan.cc/",
+          "https://mucpan.cc/",
+          "http://milvdou.fun"
         ],
         "url_key": "UC",
         "token": "",
         "ucCookie": "",
         "quarkCookie": "",
         "threadinfo": {
-          "chunksize": 450,
+          "chunksize": 400,
           "threads": 12
         }
-      },
-      "jar": "https://700sjro44343.vicp.fun/vip/jar/xiaomi.php"
+      }
+    },
+    {
+      "key": "csp_Netfixtv",
+      "name": "至臻💌4K弹幕",
+      "type": 3,
+      "changeable": "0",
+      "api": "csp_Duopan",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740365131257/0224.jar;md5;4cfaa3add65e69b8b58cee4f045c0db8",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "https://mihdr.top",
+          "http://www.miqk.cc",
+          "http://www.xhww.net",
+          "http://xhww.net",
+          "https://xiaomiai.site"
+        ],
+        "url_key": "Netfixtv",
+        "token": "",
+        "ucCookie": "",
+        "quarkCookie": "",
+        "threadinfo": {
+          "chunksize": 400,
+          "threads": 12
+        }
+      }
+    },
+    {
+      "key": "csp_FeiMaoUC",
+      "name": "闪电优汐4K",
+      "type": 3,
+      "api": "csp_Duopan",
+      "jar": "./0000.txt;md5;2ce1c06d0582d9dca3496f00a37ade6c",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://1.95.79.193/"
+        ],
+        "url_key": "FeiMaoUC"
+      }
     },
     {
       "key": "csp_Wogg",
@@ -252,28 +291,6 @@
         }
       },
       "jar": "https://700sjro44343.vicp.fun/vip/jar/xiaomi.php"
-    },
-    {
-      "key": "天",
-      "name": "天翼4K",
-      "type": 3,
-      "api": "csp_Wextyso",
-      "searchable": 1,
-      "changeable": 0,
-      "jar": "./111.txt"
-    },
-    {
-      "key": "115",
-      "name": "115网盘",
-      "type": 3,
-      "api": "csp_Wex115share",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      },
-      "jar": "./111.txt"
     },
     {
       "key": "移动4K云盘",
