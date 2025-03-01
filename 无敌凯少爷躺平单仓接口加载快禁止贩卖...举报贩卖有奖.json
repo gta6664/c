@@ -159,68 +159,6 @@
                 "分类url": "https://hsck123.26img.com/?type={cateId}&p={catePg}"
             }
         },
-
-    {
-      "key": "玩偶智能",
-      "name": "玩偶智能|4K",
-      "type": 3,
-      "api": "csp_Wogg",
-      "jar": "./000.txt;md5;f3110f8ad96233627b3e6870cfdbd598",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "wogg": true,
-        "danmu": true
-      }
-    },
-    {
-      "key": "木偶",
-      "name": "木偶 | 4K",
-      "type": 3,
-      "api": "csp_Wobg",
-      "jar": "./000.txt;md5;f3110f8ad96233627b3e6870cfdbd598",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "http://149.88.87.72:5666/",
-        "danmu": true
-      }
-    },
-    {
-      "key": "csp_UC",
-      "name": "小米🍚UC4K",
-      "type": 3,
-      "changeable": "0",
-      "api": "csp_Duopan",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740365131257/0224.jar;md5;4cfaa3add65e69b8b58cee4f045c0db8",
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "http://www.54271.fun/",
-          "https://www.milvdou.fun",
-          "http://www.54271.fun/",
-          "https://www.mucpan.cc/",
-          "https://mucpan.cc/",
-          "http://milvdou.fun"
-        ],
-        "url_key": "UC",
-        "token": "",
-        "ucCookie": "",
-        "quarkCookie": "",
-        "threadinfo": {
-          "chunksize": 400,
-          "threads": 12
-        }
-      }
-    },
     {
       "key": "csp_Netfixtv",
       "name": "至臻💌4K弹幕",
@@ -265,63 +203,62 @@
       }
     },
     {
-      "key": "csp_FeiMaoUC",
-      "name": "闪电优汐4K",
+      "key": "JP",
+      "name": "金牌|影视",
       "type": 3,
-      "api": "csp_Wobg",
-      "jar": "./000.txt;md5;2ce1c06d0582d9dca3496f00a37ade6c",
+      "api": "csp_WebJP",
+      "jar": "https://123.yp22.cn/d/lz/i64dY2olzx0b",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "w7TCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDosKnwqTCoMKjwrPCosKpw7DDscKqXsKTwpbDpMOdwrLCr8KowpbCn8KdV8KlwpPCocOtw6PCo1dqUMKgw47lh7/phaHmkJ/lkJZc5Yac5L2H5ZGwwq3lv6voqL/otr7mu4PnrInCjVfCpcKTwqHDncOfwpbCosKpwqDDrcK+w5/DssKhbVBXwqfCrsKowqvCqcKsZ2hXwq0="
+    },
+    {
+      "key": "哔哩",
+      "name": "️┃哔哩┃合集",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "https://123.yp22.cn/d/lz/iLJli2olypeb",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "type": "4K#电影#电视剧#MV#体育#帕梅拉#太极拳#广场舞#演唱会#白噪音#考公考证#平面设计教学#软件教程#Windows",
+        "cookie": "https://ghfast.top/https://raw.githubusercontent.com/xinyi1984/xytv/master/txt/cookie.txt"
+      },
+      "timeout": 30
+    },
+    {
+      "key": "bilimd",
+      "name": "哔哩┃会员",
+      "type": 3,
+      "api": "csp_Bilimd",
+      "jar": "https://ghfast.top/https://raw.githubusercontent.com/huage2025/huage5/refs/heads/master/bili/danmu.jar",
+      "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
       "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
       "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "site": "http://1.95.79.193/",
-        "danmu": true
+        "cookie": "https://ghfast.top/https://raw.githubusercontent.com/huage2025/huage5/refs/heads/master/bili/bili.txt"
+      },
+      "timeout": 10
+    },
+    {
+      "key": "西瓜视频",
+      "name": "西瓜┃影视",
+      "type": 3,
+      "api": "csp_AmuXiguaV2",
+      "jar": "https://123.yp22.cn/d/lz/ifbEX2mg45je",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
       }
-    },
-    {
-      "key": "csp_Wogg",
-      "name": "玩偶4K",
-      "type": 3,
-      "api": "csp_Wogg",
-      "changeable": 0,
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "http://woggpan.333232.xyz/",
-          "http://wogg.xxooo.cf/",
-          "http://woggapi.888484.xyz/",
-          "http://www.wogg.net"
-        ],
-        "threadinfo": {
-          "chunksize": 450,
-          "threads": 10
-        }
-      },
-      "jar": "https://700sjro44343.vicp.fun/vip/jar/xiaomi.php"
-    },
-    {
-      "key": "csp_Netfixtv",
-      "name": "至臻4K",
-      "type": 3,
-      "api": "csp_Duopan",
-      "changeable": 0,
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "https://mihdr.top",
-          "http://www.xhww.net",
-          "http://xhww.net",
-          "https://xiaomiai.site"
-        ],
-        "url_key": "Duopan",
-        "threadinfo": {
-          "chunksize": 250,
-          "threads": 10
-        }
-      },
-      "jar": "https://700sjro44343.vicp.fun/vip/jar/xiaomi.php"
     },
     {
       "key": "移动4K云盘",
@@ -902,6 +839,142 @@
       "type": 3,
       "api": "./drpy2.min.js",
       "ext": "./youku.js"
+    },
+    {
+      "key": "国学",
+      "name": "国学┃经典",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "https://cik03-cos.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c8fd2c83-7f26-4d9a-983c-042d25692adf/2024-06-18/2024-06-18_00:47:33/1718642853998/96346083/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://image-c.weimobwmc.com/ol-OlSf/1203091da6cb4dc58fb39e7af03ffbf3.jpg"
+    },
+    {
+      "key": "百科",
+      "name": "百科┃全书",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "https://cik03-cos.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c8fd2c83-7f26-4d9a-983c-042d25692adf/2024-06-18/2024-06-18_00:47:33/1718642853998/96346083/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://image-c.weimobwmc.com/ol-OlSf/830e33a6b9f140eab57b298f85b85cb1.jpg"
+    },
+    {
+      "key": "地理",
+      "name": "全球┃地理",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "https://cik03-cos.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c8fd2c83-7f26-4d9a-983c-042d25692adf/2024-06-18/2024-06-18_00:47:33/1718642853998/96346083/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://image-c.weimobwmc.com/ol-OlSf/e5509817319e446ba2b13f3c3d6b0d2e.jpg"
+    },
+    {
+      "key": "科学",
+      "name": "科学┃发明",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "https://cik03-cos.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c8fd2c83-7f26-4d9a-983c-042d25692adf/2024-06-18/2024-06-18_00:47:33/1718642853998/96346083/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://image-c.weimobwmc.com/ol-OlSf/15c23182b6fb415ea8314a6dc663b2d0.jpg"
+    },
+    {
+      "key": "戏曲",
+      "name": "戏曲┃大全",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "https://cik03-cos.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c8fd2c83-7f26-4d9a-983c-042d25692adf/2024-06-18/2024-06-18_00:47:33/1718642853998/96346083/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://image-c.weimobwmc.com/ol-OlSf/9a72ac3a9fa24d3f84cebcf008e4ed0d.jpg"
+    },
+    {
+      "key": "梨园",
+      "name": "梨园┃戏曲",
+      "type": 3,
+      "api": "http://150.158.112.123/js/dr/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://image-c.weimobwmc.com/ol-OlSf/983ec95b8248461cad620063864b21cd.jpg"
+    },
+    {
+      "key": "外语",
+      "name": "外语┃教学",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "https://cik03-cos.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c8fd2c83-7f26-4d9a-983c-042d25692adf/2024-06-18/2024-06-18_00:47:33/1718642853998/96346083/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://image-c.weimobwmc.com/ol-OlSf/11ac56458b5049bbaddf42c9cea883da.jpg"
+    },
+    {
+      "key": "幼儿",
+      "name": "幼儿┃教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "https://cik03-cos.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c8fd2c83-7f26-4d9a-983c-042d25692adf/2024-06-18/2024-06-18_00:47:33/1718642853998/96346083/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://image-c.weimobwmc.com/ol-OlSf/f6ca5e8d2f054df69a52d01b58bb9c5e.jpg"
+    },
+    {
+      "key": "小学",
+      "name": "小学┃教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "https://cik03-cos.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c8fd2c83-7f26-4d9a-983c-042d25692adf/2024-06-18/2024-06-18_00:47:33/1718642853998/96346083/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://image-c.weimobwmc.com/ol-OlSf/3bbf4afa303f403eb89b6489b1958f93.jpg"
+    },
+    {
+      "key": "初中",
+      "name": "初中┃教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "https://cik03-cos.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c8fd2c83-7f26-4d9a-983c-042d25692adf/2024-06-18/2024-06-18_00:47:33/1718642853998/96346083/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://image-c.weimobwmc.com/ol-OlSf/75760f1471bc4180a49ce13b7105d834.jpg"
+    },
+    {
+      "key": "高中",
+      "name": "高中┃教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "https://cik03-cos.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c8fd2c83-7f26-4d9a-983c-042d25692adf/2024-06-18/2024-06-18_00:47:33/1718642853998/96346083/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://image-c.weimobwmc.com/ol-OlSf/53c803b0532c462fb2d2c3c641ba357b.jpg"
+    },
+    {
+      "key": "哔哩直播",
+      "name": "哔哩┃直播",
+      "type": 3,
+      "api": "http://150.158.112.123/js/dr/drpy2.min.js",
+      "ext": "https://image-c.weimobwmc.com/ol-OlSf/82d4b21cc0d8492898457b256010bd98.jpg"
+    },
+    {
+      "key": "MV大全",
+      "name": "MV┃音乐",
+      "type": 4,
+      "api": "http://120.53.102.254/dsp/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "ngys",
@@ -2593,6 +2666,21 @@
       "name": "聚合0",
       "type": 3,
       "url": "Web"
+    },
+    {
+      "name": "解析1",
+      "type": 1,
+      "url": "http://103.36.221.75:81/ltbygbgg/api.php?url="
+    },
+    {
+      "name": "解析2",
+      "type": 1,
+      "url": "https://www.tcsbl.cn/api/lib/shuo.php?url="
+    },
+    {
+      "name": "解析三",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
     },
     {
       "name": "线路1",
