@@ -814,6 +814,63 @@
       }
     },
     {
+      "key": "lltv_360DH",
+      "name": "360🔥动画",
+      "type": 3,
+      "api": "./drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./360donghua.js"
+    },
+    {
+      "key": "lltv_MGDH",
+      "name": "芒果动画",
+      "type": 3,
+      "api": "./drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./mangguo.js"
+    },
+    {
+      "key": "lltv_QYDH",
+      "name": "奇艺动画",
+      "type": 3,
+      "api": "./drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ".//qiyi.js"
+    },
+    {
+      "key": "lltv_SGDH",
+      "name": "搜狗动画",
+      "type": 3,
+      "api": "./drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sougou.js"
+    },
+    {
+      "key": "lltv_TXDH",
+      "name": "腾讯动画",
+      "type": 3,
+      "api": "./drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./tengxun.js"
+    },
+    {
+      "key": "lltv_YKDH",
+      "name": "优酷动画",
+      "type": 3,
+      "api": "./drpy2.min.js",
+      "ext": "./youku.js"
+    },
+    {
       "key": "lltv_QYDH",
       "name": "奇艺┃动画",
       "type": 3,
@@ -2669,8 +2726,8 @@
     },
     {
       "name": "解析1",
-      "type": 0,
-      "url": "https://jiexi.site/?url="
+      "type": 1,
+      "url": "http://103.36.221.75:81/ltbygbgg/api.php?url="
     },
     {
       "name": "解析2",
