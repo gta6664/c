@@ -229,19 +229,19 @@
     },
     {
       "key": "bilimd",
-      "name": "哔哩┃会员",
+      "name": "哔哩┃会员弹幕",
       "type": 3,
       "api": "csp_Bilimd",
-      "jar": "https://ghfast.top/https://raw.githubusercontent.com/huage2025/huage5/refs/heads/master/bili/danmu.jar",
+      "jar": "./000.txt",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "style": {
         "type": "rect",
-        "ratio": 1.433
+        "ratio": 1.597
       },
       "ext": {
-        "cookie": "https://ghfast.top/https://raw.githubusercontent.com/huage2025/huage5/refs/heads/master/bili/bili.txt"
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt"
       },
       "timeout": 10
     },
@@ -357,6 +357,53 @@
       "filterable": 1,
       "ext": "./一起看.json"
     },
+        {
+            "key": "游子视频",
+            "name": "游子视频",
+            "type": 3,
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "api": "csp_XBPQ",
+            "jar": "./xyqxbpq.jar",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "分类url": "https://youzisp.tv/vodshow/{cateId}--------{catePg}---.html",
+                "分类": "电影$dianying#电视剧$dianshiju#纪录片$jilupian#动漫$dongman#综艺$zongyi",
+                "简介": "🍁凯少爷🍁水印广告勿信，谨防诈骗🍁"
+            }
+        },
+{"key":"火狐",
+"name":"🦊茶杯狐",
+"jar":"./fm.jar",
+"type":1,
+"api":"https://hhzyapi.com/api.php/provide/vod/",
+"searchable":1,
+"quickSearch":1,
+"filterable":1,
+"categories":[
+"动作片",
+"科幻片",
+"战争片",
+"喜剧片",
+"爱情片",
+"恐怖片",
+"犯罪片",
+"剧情片",
+"冒险片",
+"记录片",
+"内地剧",
+"短剧",
+"韩剧",
+"香港剧",
+"台湾剧",
+"欧美剧",
+"体育赛事",
+"综艺",
+"动画片",
+"中国动漫"]},
+
  {
             "key": "短剧网",
             "name": "短剧网2",
