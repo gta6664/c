@@ -159,6 +159,27 @@
                 "分类url": "https://hsck123.26img.com/?type={cateId}&p={catePg}"
             }
         },
+       {
+            "key": "剑偶视频",
+            "name": "👽剑偶视频",
+            "type": 3,
+            "api": "./色播聚合.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+    {
+      "key": "csp_appys_影盒",
+      "name": "影探4K",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740652967925/PandaQ250227c.jar;md5;ceda5421cdce5fad2a2f6d8c71ae4311",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://cms-vip.lyyytv.cn/api.php/app/"
+    },
     {
       "key": "csp_Netfixtv",
       "name": "至臻💌4K弹幕",
