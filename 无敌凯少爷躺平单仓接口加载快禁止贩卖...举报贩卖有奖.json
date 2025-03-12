@@ -170,6 +170,26 @@
             "changeable": 0
         },
     {
+      "key": "drpyS_七偶视频[密]",
+      "name": "👽七偶视频",
+      "type": 4,
+      "api": "http://drpy.mxlgsl.cn/api/七度空间[密]",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 0,
+      "ext": ""
+    },
+    {
+      "key": "drpyS_草偶视频[密]",
+      "name": "👽草偶视频",
+      "type": 4,
+      "api": "http://drpy.mxlgsl.cn/api/草榴社区[密]",
+      "searchable": 2,
+      "filterable": 0,
+      "quickSearch": 0,
+      "ext": ""
+    },
+    {
       "key": "csp_appys_影盒",
       "name": "影探4K",
       "type": 3,
