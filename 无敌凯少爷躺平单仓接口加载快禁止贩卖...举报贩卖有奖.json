@@ -23,8 +23,8 @@
             "ext": "./douban.json"
         },
     {
-      "key": "无敌凯少爷豆瓣2",
-      "name": "无敌凯少爷豆瓣2",
+      "key": "禁止偷拿去直播无敌凯少爷豆瓣2",
+      "name": "禁止偷拿去直播无敌凯少爷豆瓣2",
       "type": 3,
       "api": "csp_DouDouGuard",
       "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740568619528/f0226a.txt;md5;925a350dec8cef32186a919fe28e2fe4",
@@ -34,8 +34,8 @@
       "filterable": 0
     },
     {
-      "key": "无敌凯少爷豆瓣3",
-      "name": "无敌凯少爷豆瓣3",
+      "key": "禁止偷拿去拍视频无敌凯少爷豆瓣3",
+      "name": "禁止偷拿去拍视频无敌凯少爷豆瓣3",
       "type": 3,
       "api": "csp_DouDou",
       "jar": "./555.txt",
@@ -99,7 +99,7 @@
       "name": "👽玩偶哥哥┃4K弹幕",
       "type": 3,
       "api": "csp_WoGGGuard",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740568619528/f0226a.txt;md5;925a350dec8cef32186a919fe28e2fe4",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732559427206/fan.txt;md5;4e2429f30551927d1831c19063158ee9",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -189,17 +189,7 @@
       "quickSearch": 0,
       "ext": ""
     },
-    {
-      "key": "csp_appys_影盒",
-      "name": "影探4K",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740652967925/PandaQ250227c.jar;md5;ceda5421cdce5fad2a2f6d8c71ae4311",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cms-vip.lyyytv.cn/api.php/app/"
-    },
+
     {
       "key": "csp_Netfixtv",
       "name": "至臻💌4K弹幕",
