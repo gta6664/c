@@ -99,7 +99,7 @@
       "name": "👽玩偶哥哥┃4K弹幕",
       "type": 3,
       "api": "csp_WoGGGuard",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740568619528/f0226a.txt;md5;925a350dec8cef32186a919fe28e2fe4",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1742238202186/f0318.txt;md5;dda5ab42b722f13761900308a6caff89",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -623,7 +623,20 @@
         "简介": "🍁凯少爷🍁水印广告勿信，谨防诈骗🍁"
     }
 },
-
+        {
+            "key": "大师兄影视",
+            "name": "大师兄影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./xyqxbpq.jar",
+            "ext": {
+ "请求头": "User-Agent$MOBILE_UA",
+       "编码": "UTF-8",
+                "分类url": "https://www.ruiding3bu.com/ruvodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+                "分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi#豆瓣电影Top250$42",
+"简介": "🍁凯少爷🍁水印广告勿信，谨防诈骗🍁"
+            }
+        },
 {
             "key": "永乐视频",
             "name": "永乐视频",
